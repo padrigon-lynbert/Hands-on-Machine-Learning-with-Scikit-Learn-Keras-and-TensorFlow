@@ -1,0 +1,74 @@
+1. How would you like to define machine learning?
+Giving computers the ability to learn by itself without being programmed by individuals.
+
+2. Can you name four types of problems where it shines?
+Esisting solutions require a lot of hand-tuning, long list of rules,
+Complex problems with no traditional-approach solutions,
+Fluctuating environments
+Getting insights about complex problems.
+
+3. What is a labeled training set?
+Input data samples with tags on it that serve as the ground truth, require additional process of labeling. Used in supervised learning.
+
+4. What are the two most common supervised tasks?
+Classification, regression.
+
+5. Can you name four common unsupervised tasks?
+Clustering,
+Anomaly and novelty detection,
+Visualization and dimensionality reduction,
+Association rule learning.
+
+6. What type of Machine Learning algorithm would you use to allow a robot to walk in a various unknown terrains?
+Visualization and dimensionality reduction.
+
+7. What type of algorithm would you use to segment your customers into multiple groups?
+Clustering.
+
+8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+Supervised - Classification.
+
+9. What is an online learning system?
+Once the model learned the data, it will discard it. High learning rate, quick to learn but forget the old data easily.
+
+10. What is out-core learning?
+Training the machine on large datasets that cannot fit in its main memory.
+
+11. What type of learning algorithm relies on a similarity measure to make predictions?
+Instance-based learning algorithm.
+
+12. What is the difference between a model parameneter and a learning algorithm's hyperparameter?
+Param: Variables and things that the model learned from the data,
+Hyperparam: Configurations that is already learned by the model and is set by who is creating the model.
+
+13. What do model-based learning algorithms search for?
+    What is the most common stratedgy they use to succeed?
+    How do they make predictions?
+
+14. Can you name four of the main challenges in Machine Learning?
+Nonrepresentative training data,
+Poor-quality data,
+Irrelevant features,
+Insufficient quantity of training data.
+
+15. If your model performs great on the training data but generalize poorly to new instances, what is happening?    
+I am overfitting the training data.
+
+    Can you name three possible solutions?
+    Simplify the model with fewer parameneters,
+    Gather more trainig data,
+    Reduce noise in the training data.
+
+16. What is a test set and why would you want to use it?
+A part of the whole data set that is set aside for testing purposes, will be used so the data will be trained on
+    how it will treat real-world data
+
+17. What is the purpose of a validation set?
+A part of the test set that is chosen best for the purpose of testing.
+
+18. What could go wrong if you tune the hyperparameter using the test set?
+It is hard to know if the test set will be okay to use, it might be too large or small.
+
+19. What is repeated cross-validation and why sould you prefer it to using a single validation set?
+Using multiple validation sets,
+By averaging all test result of the validation sets, the model can aget a more precise prediction.
