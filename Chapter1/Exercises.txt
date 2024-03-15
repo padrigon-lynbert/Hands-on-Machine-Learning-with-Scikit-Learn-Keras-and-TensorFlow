@@ -42,8 +42,13 @@ Param: Variables and things that the model learned from the data,
 Hyperparam: Configurations that is already learned by the model and is set by who is creating the model.
 
 13. What do model-based learning algorithms search for?
+Parameters
     What is the most common stratedgy they use to succeed?
+    Cost function to measure the distance between: prediction, training examples
+
     How do they make predictions?
+    After training the model, you apply the model to make predictions called inference. The prediction's result will solely be
+    based on what algorithm is used.
 
 14. Can you name four of the main challenges in Machine Learning?
 Nonrepresentative training data,
